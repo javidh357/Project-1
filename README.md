@@ -1,28 +1,28 @@
-# 🧾 Invoice PDF Extractor
+# Invoice PDF Extractor
 
 A Python-based GUI application that automatically logs into your Gmail, searches for invoice emails with PDF attachments, extracts data from those PDFs, and exports it into a CSV file for analysis. Built with `Tkinter`, `PyPDF2`, and `pandas`.
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ GUI-based email login and configuration using Tkinter  
-- 📥 Automatically fetch invoice emails with PDFs using IMAP  
-- 🧠 Extracts key information from PDF files (e.g., invoice number, amount)  
-- 📊 Exports data to CSV for easy viewing and analysis  
-- 📁 Save downloaded PDFs locally  
-- 🪵 Detailed logging for easy debugging
+-  GUI-based email login and configuration using Tkinter  
+-  Automatically fetch invoice emails with PDFs using IMAP  
+-  Extracts key information from PDF files (e.g., invoice number, amount)  
+-  Exports data to CSV for easy viewing and analysis  
+-  Save downloaded PDFs locally  
+-  Detailed logging for easy debugging
 
 ---
 
-## 📸 GUI Preview
+##  GUI Preview
 
 > Add screenshots here in the `images/` folder and reference them like below:
 ![App Screenshot](images/gui-screenshot.png)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -41,7 +41,7 @@ A Python-based GUI application that automatically logs into your Gmail, searches
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User logs into Gmail via GUI using App Password.
 2. App connects to Gmail inbox via IMAP and searches for emails with a specific subject (e.g., "Invoice").
@@ -50,7 +50,7 @@ A Python-based GUI application that automatically logs into your Gmail, searches
 
 ---
 
-## 📂 File Structure
+##  File Structure
 
 ```bash
 Project-1/
@@ -63,7 +63,7 @@ Project-1/
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 - Python 3.7+
 - Internet connection (for Gmail)
@@ -71,7 +71,7 @@ Project-1/
 
 ---
 
-## 📦 Packages Used
+##  Packages Used
 
 - `Tkinter` – for the GUI
 - `imaplib` – for email fetching
@@ -82,13 +82,13 @@ Project-1/
 
 ---
 
-## ⚠️ Security Note
+##  Security Note
 
 > This app uses direct email login. Avoid using your main password; **use an App Password** generated via Gmail settings.
 
 ---
 
-## 🔧 To-Do / Improvements
+##  To-Do / Improvements
 
 - [ ] Improve PDF extraction with regex or OCR
 - [ ] Add progress bars or status indicators in GUI
@@ -98,19 +98,19 @@ Project-1/
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Feel free to fork this repo, improve it, and create a pull request! Suggestions, issues, and bug reports are welcome.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Javidh**  
 🔗 [GitHub Profile](https://github.com/javidh357)
